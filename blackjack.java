@@ -24,7 +24,7 @@ public class blackjack {
             if ("K".equals(rank) || "Q".equals(rank) || "J".equals(rank)) return 10;
             return Integer.parseInt(rank);
         }
-        
+
         @Override
         public String toString() {
             return rank + suit;
@@ -45,6 +45,7 @@ public class blackjack {
             for (String suit : suits) {
                 for (String rank : ranks) {
                     cards.add(new Card(rank, suit));
+                    //makes the cards
                 }
             }
             Collections.shuffle(cards);
