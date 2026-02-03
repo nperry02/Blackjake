@@ -24,7 +24,7 @@ public class blackjack {
             if ("K".equals(rank) || "Q".equals(rank) || "J".equals(rank)) return 10;
             return Integer.parseInt(rank);
         }
-
+        // no One
         @Override
         public String toString() {
             return rank + suit;
