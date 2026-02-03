@@ -60,6 +60,7 @@ public class blackjack {
         }
     }
 
+    //calculated value
     private static int handValue(List<Card> hand) {
         int total = 0;
         int aces = 0;
